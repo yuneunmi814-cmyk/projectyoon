@@ -13,8 +13,8 @@ export default function Home() {
           <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
           초기 멤버 · PM · 프로덕트 디자이너 포지션 탐색 중
         </div>
-        <h1 className="mb-8 text-4xl font-bold leading-[1.15] tracking-tightest text-ink-900 md:text-6xl text-balance">
-          문제를 정의하고,<br />
+        <h1 className="mb-8 text-4xl font-bold leading-[1.25] tracking-tightest text-ink-900 md:text-6xl md:leading-[1.15] text-balance">
+          문제를 정의하고,<br className="hidden md:inline" />{' '}
           <span className="text-accent">직접 만들어</span> 검증합니다.
         </h1>
         <p className="mb-10 max-w-xl text-lg leading-relaxed text-ink-600 text-balance">
