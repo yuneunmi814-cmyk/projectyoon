@@ -63,7 +63,7 @@ export const projects: Project[] = [
     stack: ['HTML', 'JavaScript', 'Cloudflare Workers'],
     period: '2026',
     liveUrl: 'https://amyproject1.yuneunmi814.workers.dev/',
-    summary: '빠르게 로또 번호를 추천받고 싶은 순간을 위한 간단한 도구.',
+    summary: '빠르게 만들어 본 로또 번호 추천 도구.',
     featured: false,
   },
   {
@@ -75,7 +75,7 @@ export const projects: Project[] = [
     stack: ['React', 'Cloudflare Pages'],
     period: '2026',
     liveUrl: 'https://idealtype-mbti.pages.dev/',
-    summary: 'MBTI 기반으로 최고와 최악의 궁합을 알려주는 가벼운 테스트.',
+    summary: 'MBTI 기반 궁합 테스트.',
     featured: false,
   },
   {
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     stack: ['React', 'Cloudflare Pages'],
     period: '2026',
     liveUrl: 'https://personalstylist-studio-7u0.pages.dev/',
-    summary: '개인 스타일링을 가볍게 시뮬레이션해보는 실험용 도구.',
+    summary: '개인 스타일링을 시뮬레이션하는 도구.',
     featured: false,
   },
 ];
