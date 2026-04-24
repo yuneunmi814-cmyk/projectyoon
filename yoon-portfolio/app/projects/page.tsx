@@ -11,7 +11,6 @@ export default function ProjectsPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-20">
       <header className="mb-16">
-        <p className="mb-3 text-sm text-ink-500">Projects</p>
         <h1 className="mb-4 text-4xl font-bold tracking-tight text-ink-900 md:text-5xl">
           만든 것들
         </h1>
