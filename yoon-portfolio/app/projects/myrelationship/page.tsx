@@ -34,8 +34,8 @@ export default function MyRelationshipPage() {
 
         <p className="pt-4 text-base text-ink-500">
           실제로 해보기 →{' '}
-          <a href="https://b52718bb.firo-b.pages.dev/" className="text-accent underline underline-offset-4">
-            firo-b.pages.dev
+          <a href="https://myrelationship.projectyoon.com" className="text-accent underline underline-offset-4">
+            myrelationship.projectyoon.com
           </a>
         </p>
       </div>

@@ -37,7 +37,7 @@ export const projects: Project[] = [
     role: ['기획', '디자인', '개발', '배포'],
     stack: ['Next.js', 'React', 'Tailwind', 'Cloudflare Pages'],
     period: '2026',
-    liveUrl: 'https://b52718bb.firo-b.pages.dev/',
+    liveUrl: 'https://myrelationship.projectyoon.com',
     summary:
       '심리학 이론 FIRO-B를 기반으로, 이상적인 파트너상과 갈등 스타일을 3가지 대인관계 욕구(포용·통제·애정)로 진단하는 웹 자가진단 도구.',
     featured: true,
