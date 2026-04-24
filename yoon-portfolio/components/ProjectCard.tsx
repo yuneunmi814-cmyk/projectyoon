@@ -9,6 +9,7 @@ const statusMap: Record<
   building: { text: 'text-accent', dot: 'bg-accent animate-pulse', label: 'Building' },
   archived: { text: 'text-ink-500', dot: 'bg-ink-300', label: 'Archived' },
   lab: { text: 'text-ink-500', dot: 'bg-ink-400', label: 'Lab' },
+  concept: { text: 'text-violet-700', dot: 'bg-violet-500', label: 'Concept' },
 };
 
 export default function ProjectCard({ project }: { project: Project }) {

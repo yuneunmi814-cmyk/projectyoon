@@ -1,4 +1,4 @@
-export type ProjectStatus = 'live' | 'building' | 'archived' | 'lab';
+export type ProjectStatus = 'live' | 'building' | 'archived' | 'lab' | 'concept';
 
 export interface Project {
   slug: string;
@@ -15,6 +15,28 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    slug: 'lms',
+    title: '학생 맞춤형 학사·진로 지원 시스템 고도화',
+    tagline: '진로 로드맵 및 상담 지원 체계 구축',
+    status: 'concept',
+    role: ['문제 정의', '서비스 기획', '화면 설계'],
+    stack: ['Figma', 'Notion'],
+    period: '2026',
+    summary: '학사·비교과·진로 데이터를 통합 관리하고, 성향에 맞는 프로그램을 추천하며, 상담 예약과 진로성과 환류까지 한 곳에서 운영하는 대학용 통합 시스템.',
+    featured: true,
+  },
+  {
+    slug: 'matching-demo',
+    title: '비교과 프로그램 매칭 데모',
+    tagline: '성향검사 결과로 학생에게 맞는 프로그램을 추천',
+    status: 'building',
+    role: ['기획', '개발', '배포'],
+    stack: ['Next.js', 'TypeScript', 'Tailwind'],
+    period: '2026 예정',
+    summary: '위 기획의 4가지 핵심 기능 중 성향 기반 프로그램 매칭을 실제 동작하는 MVP로 구현.',
+    featured: true,
+  },
   {
     slug: 'subway',
     title: '지하철 혼잡도 알리미',
