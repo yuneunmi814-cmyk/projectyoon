@@ -34,8 +34,23 @@ export default function AboutPage() {
         </p>
       </div>
 
+      {/* 인용구 - 본질 */}
+      <section className="my-16 border-l-2 border-accent pl-6">
+        <p className="mb-3 text-2xl font-medium leading-relaxed text-ink-900 md:text-3xl"
+           style={{ wordBreak: 'keep-all' }}>
+          &ldquo;가장 중요한 것은<br />
+          보이지 않아.&rdquo;
+        </p>
+        <p className="text-sm text-ink-500">— 어린왕자</p>
+        <p className="mt-6 leading-relaxed text-ink-600"
+           style={{ wordBreak: 'keep-all' }}>
+          오래 좋아한 문장입니다.
+          표면 아래의 진짜 문제를 보려고 합니다.
+        </p>
+      </section>
+
       {/* 관심 영역 */}
-      <section className="mt-16 border-t border-ink-100 pt-10">
+      <section className="border-t border-ink-100 pt-10">
         <h2 className="mb-6 text-sm font-semibold uppercase tracking-wider text-ink-500">
           관심 있는 영역
         </h2>
