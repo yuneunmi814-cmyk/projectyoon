@@ -1,4 +1,4 @@
-export type ProjectStatus = 'live' | 'building' | 'archived';
+export type ProjectStatus = 'live' | 'building' | 'archived' | 'lab';
 
 export interface Project {
   slug: string;
@@ -52,6 +52,42 @@ export const projects: Project[] = [
     period: '2026.05 예정',
     summary:
       '교육부 재정지원사업의 반복 문서 작업을 자동화하는 실무 도구. 현업 문제를 프로덕트로.',
+    featured: false,
+  },
+  {
+    slug: 'lotto',
+    title: '로또 번호 추천기',
+    tagline: '로또 번호 5세트 자동 추천',
+    status: 'lab',
+    role: ['기획', '개발', '배포'],
+    stack: ['HTML', 'JavaScript', 'Cloudflare Workers'],
+    period: '2026',
+    liveUrl: 'https://amyproject1.yuneunmi814.workers.dev/',
+    summary: '빠르게 로또 번호를 추천받고 싶은 순간을 위한 간단한 도구.',
+    featured: false,
+  },
+  {
+    slug: 'mbti-match',
+    title: 'MBTI 궁합 테스트',
+    tagline: '나의 최고의 짝꿍과 최악의 짝꿍은?',
+    status: 'lab',
+    role: ['기획', '개발', '배포'],
+    stack: ['React', 'Cloudflare Pages'],
+    period: '2026',
+    liveUrl: 'https://idealtype-mbti.pages.dev/',
+    summary: 'MBTI 기반으로 최고와 최악의 궁합을 알려주는 가벼운 테스트.',
+    featured: false,
+  },
+  {
+    slug: 'personal-stylist',
+    title: '퍼스널 스타일리스트',
+    tagline: '나도 연예인, 나에게 개인 스타일리스트가 있다면',
+    status: 'lab',
+    role: ['기획', '개발', '배포'],
+    stack: ['React', 'Cloudflare Pages'],
+    period: '2026',
+    liveUrl: 'https://personalstylist-studio-7u0.pages.dev/',
+    summary: '개인 스타일링을 가볍게 시뮬레이션해보는 실험용 도구.',
     featured: false,
   },
 ];

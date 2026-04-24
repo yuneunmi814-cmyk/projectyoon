@@ -8,6 +8,7 @@ const statusMap: Record<
   live: { text: 'text-emerald-700', dot: 'bg-emerald-500', label: 'Live' },
   building: { text: 'text-accent', dot: 'bg-accent animate-pulse', label: 'Building' },
   archived: { text: 'text-ink-500', dot: 'bg-ink-300', label: 'Archived' },
+  lab: { text: 'text-amber-700', dot: 'bg-amber-500', label: 'Lab' },
 };
 
 export default function ProjectCard({ project }: { project: Project }) {
