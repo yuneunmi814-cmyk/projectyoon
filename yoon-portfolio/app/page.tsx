@@ -11,18 +11,17 @@ export default function Home() {
       <section className="py-24 md:py-32">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-ink-100 bg-ink-50 px-3 py-1 text-xs text-ink-600">
           <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
-          초기 멤버 · PM · 프로덕트 디자이너 포지션 탐색 중
+          프로덕트 빌더 · 새로운 팀 찾는 중
         </div>
-        <h1 className="mb-8 text-4xl font-bold leading-[1.25] tracking-tightest text-ink-900 md:text-6xl md:leading-[1.15] break-keep">
-          문제를 정의하고,
-          <br className="md:hidden" />
-          <br className="hidden md:inline" />{' '}
-          <span className="text-accent">직접 만들어</span> 검증합니다.
+        <h1 className="mb-8 text-4xl font-bold leading-[1.25] tracking-tightest text-ink-900 md:text-6xl md:leading-[1.15]"
+            style={{ wordBreak: 'keep-all' }}>
+          다양한 문제,<br />
+          정해진 공식.
         </h1>
-        <p className="mb-10 max-w-xl text-lg leading-relaxed text-ink-600 text-balance break-keep">
-          15개 조직에서 사업 기획과 운영을 해오며 같은 문제가 반복되는 것을 보았습니다.
-          이제는 기획서가 아니라 프로덕트로 그 문제들을 풉니다. 사용자를 만나고,
-          화면을 그리고, 코드를 써서 배포합니다.
+        <p className="mb-10 max-w-xl text-lg leading-relaxed text-ink-600"
+           style={{ wordBreak: 'keep-all', overflowWrap: 'break-word' }}>
+          세상의 문제도 그렇다고 믿습니다.
+          그래서 만듭니다.
         </p>
         <div className="flex flex-wrap gap-3">
           <Link
@@ -35,7 +34,7 @@ export default function Home() {
             href="/about"
             className="rounded-full border border-ink-200 px-5 py-2.5 text-sm font-medium text-ink-800 transition hover:bg-ink-50"
           >
-            About yoon
+            About
           </Link>
         </div>
       </section>
