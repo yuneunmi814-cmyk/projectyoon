@@ -13,11 +13,11 @@ export default function Home() {
           <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
           초기 멤버 · PM · 프로덕트 디자이너 포지션 탐색 중
         </div>
-        <h1 className="mb-8 text-4xl font-bold leading-[1.25] tracking-tightest text-ink-900 md:text-6xl md:leading-[1.15] text-balance">
+        <h1 className="mb-8 text-4xl font-bold leading-[1.25] tracking-tightest text-ink-900 md:text-6xl md:leading-[1.15] text-balance break-keep">
           문제를 정의하고,<br className="hidden md:inline" />{' '}
           <span className="text-accent">직접 만들어</span> 검증합니다.
         </h1>
-        <p className="mb-10 max-w-xl text-lg leading-relaxed text-ink-600 text-balance">
+        <p className="mb-10 max-w-xl text-lg leading-relaxed text-ink-600 text-balance break-keep">
           15개 조직에서 사업 기획과 운영을 해오며 같은 문제가 반복되는 것을 보았습니다.
           이제는 기획서가 아니라 프로덕트로 그 문제들을 풉니다. 사용자를 만나고,
           화면을 그리고, 코드를 써서 배포합니다.
@@ -81,7 +81,7 @@ export default function Home() {
             <div key={item.n}>
               <p className="mb-2 font-mono text-xs text-accent">{item.n}</p>
               <h3 className="mb-2 font-semibold text-ink-900">{item.t}</h3>
-              <p className="text-sm leading-relaxed text-ink-600">{item.d}</p>
+              <p className="text-sm leading-relaxed text-ink-600 break-keep">{item.d}</p>
             </div>
           ))}
         </div>
@@ -92,7 +92,7 @@ export default function Home() {
         <h2 className="mb-4 text-2xl font-semibold tracking-tight text-ink-900">
           함께 만들어요
         </h2>
-        <p className="mb-8 max-w-lg leading-relaxed text-ink-600">
+        <p className="mb-8 max-w-lg leading-relaxed text-ink-600 break-keep">
           제품 초기 단계에서 0에서 1을 만드는 일에 관심이 많습니다.
           팀과 도메인이 흥미롭다면 언제든 이야기 나눠요.
         </p>
