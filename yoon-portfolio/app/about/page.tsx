@@ -81,13 +81,13 @@ export default function AboutPage() {
           Contact
         </h2>
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-ink-800">
-          <a href="mailto:hello@projectyoon.com" className="hover:text-accent">
-            hello@projectyoon.com
+          <a href="mailto:yuneunmi814@gmail.com" className="hover:text-accent">
+            yuneunmi814@gmail.com
           </a>
-          <a href="https://github.com/yoon" className="hover:text-accent">
+          <a href="https://github.com/yuneunmi814-cmyk" className="hover:text-accent">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yoon" className="hover:text-accent">
+          <a href="#" className="hover:text-accent">
             LinkedIn
           </a>
         </div>

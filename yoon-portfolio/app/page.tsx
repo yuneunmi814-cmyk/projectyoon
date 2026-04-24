@@ -99,10 +99,10 @@ export default function Home() {
           팀과 도메인이 흥미롭다면 언제든 이야기 나눠요.
         </p>
         <a
-          href="mailto:hello@projectyoon.com"
+          href="mailto:yuneunmi814@gmail.com"
           className="inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-white transition hover:bg-accent-hover"
         >
-          hello@projectyoon.com →
+          yuneunmi814@gmail.com →
         </a>
       </section>
     </div>

@@ -5,13 +5,13 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-between gap-4">
           <p>© {new Date().getFullYear()} yoon · projectyoon.com</p>
           <div className="flex gap-5">
-            <a href="mailto:hello@projectyoon.com" className="hover:text-ink-900">
+            <a href="mailto:yuneunmi814@gmail.com" className="hover:text-ink-900">
               Email
             </a>
-            <a href="https://github.com/yoon" className="hover:text-ink-900">
+            <a href="https://github.com/yuneunmi814-cmyk" className="hover:text-ink-900">
               GitHub
             </a>
-            <a href="https://linkedin.com/in/yoon" className="hover:text-ink-900">
+            <a href="#" className="hover:text-ink-900">
               LinkedIn
             </a>
           </div>

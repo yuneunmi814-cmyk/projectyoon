@@ -15,7 +15,7 @@ export default function Nav() {
             About
           </Link>
           <a
-            href="mailto:hello@projectyoon.com"
+            href="mailto:yuneunmi814@gmail.com"
             className="rounded-full bg-ink-900 px-4 py-1.5 text-white transition hover:bg-ink-700"
           >
             Contact
