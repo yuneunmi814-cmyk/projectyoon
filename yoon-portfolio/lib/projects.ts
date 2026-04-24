@@ -31,15 +31,15 @@ export const projects: Project[] = [
   },
   {
     slug: 'myrelationship',
-    title: 'My Relationship',
-    tagline: '관계를 돌아보는 가벼운 심리 검사',
+    title: '관계 욕구 자가진단',
+    tagline: 'FIRO-B 이론으로 내 관계 스타일 진단하기',
     status: 'live',
-    role: ['기획', '디자인', '개발'],
-    stack: ['Next.js', 'React', 'Tailwind'],
+    role: ['기획', '디자인', '개발', '배포'],
+    stack: ['Next.js', 'React', 'Tailwind', 'Cloudflare Pages'],
     period: '2026',
-    liveUrl: 'https://myrelationship.projectyoon.com',
+    liveUrl: 'https://b52718bb.firo-b.pages.dev/',
     summary:
-      '사용자가 짧은 시간에 자신의 관계 패턴을 돌아볼 수 있도록 설계한 심리 검사 웹사이트.',
+      '심리학 이론 FIRO-B를 기반으로, 이상적인 파트너상과 갈등 스타일을 3가지 대인관계 욕구(포용·통제·애정)로 진단하는 웹 자가진단 도구.',
     featured: true,
   },
   {
