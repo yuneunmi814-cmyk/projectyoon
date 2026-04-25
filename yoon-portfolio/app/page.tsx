@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { projects } from '@/lib/projects';
 import ProjectCard from '@/components/ProjectCard';
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   const featured = projects.filter((p) => p.featured);
@@ -103,6 +104,18 @@ export default function Home() {
         >
           yuneunmi814@gmail.com →
         </a>
+      </section>
+
+      {/* Partnership Inquiry */}
+      <section className="border-t border-ink-100 py-16">
+        <h2 className="mb-4 text-2xl font-semibold tracking-tight text-ink-900">
+          제휴 문의
+        </h2>
+        <p className="mb-8 max-w-lg leading-relaxed text-ink-600 break-keep">
+          협업·제휴·프로젝트 의뢰는 아래 폼으로 보내주세요.
+          영업일 기준 2~3일 내에 답장드립니다.
+        </p>
+        <ContactForm />
       </section>
     </div>
   );
