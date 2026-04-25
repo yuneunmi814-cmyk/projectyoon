@@ -101,15 +101,17 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    slug: 'personal-stylist',
+    slug: 'stylist',
     title: '퍼스널 스타일리스트',
     tagline: '나도 연예인, 나에게 개인 스타일리스트가 있다면',
-    status: 'lab',
-    role: ['기획', '개발', '배포'],
-    stack: ['React', 'Cloudflare Pages'],
+    status: 'live',
+    role: ['기획', '디자인', '개발', '배포'],
+    stack: ['Next.js', 'React', 'Tailwind', 'Resend', 'Cloudflare Pages'],
     period: '2026',
     liveUrl: 'https://personalstylist-studio-7u0.pages.dev/',
-    summary: '개인 스타일링을 시뮬레이션하는 도구.',
-    featured: false,
+    githubUrl: 'https://github.com/yoon/personal-stylist',
+    summary:
+      '조코딩 AI Product Builder 부트캠프 실습 예제 위에, 입력값 확장·리포트 미리보기·PDF/이메일 공유·일주일 코디 플랜·AI 재추천·추천 브랜드 기능을 더한 개인 스타일링 도구.',
+    featured: true,
   },
 ];
