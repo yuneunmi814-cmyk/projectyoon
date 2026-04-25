@@ -19,6 +19,13 @@ out
 # Archive files
 *.zip
 
+# Cloudflare / Wrangler
+.wrangler
+.dev.vars
+
+# TypeScript build info
+*.tsbuildinfo
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
