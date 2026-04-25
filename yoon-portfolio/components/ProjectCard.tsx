@@ -14,11 +14,10 @@ const statusMap: Record<
 
 export default function ProjectCard({ project }: { project: Project }) {
   const s = statusMap[project.status];
+  const hasActions = !!(project.liveUrl || project.githubUrl);
+
   return (
-    <Link
-      href={`/projects/${project.slug}`}
-      className="group relative block rounded-2xl border border-ink-100 bg-white p-6 transition hover:border-ink-300 hover:shadow-sm"
-    >
+    <div className="group relative rounded-2xl border border-ink-100 bg-white p-6 transition hover:border-ink-300 hover:shadow-sm">
       <div className="mb-3 flex items-center gap-2">
         <span className={`inline-block h-1.5 w-1.5 rounded-full ${s.dot}`} />
         <span className={`text-xs font-medium ${s.text}`}>{s.label}</span>
@@ -38,9 +37,41 @@ export default function ProjectCard({ project }: { project: Project }) {
           </span>
         ))}
       </div>
-      <span className="absolute right-6 top-6 text-ink-300 transition group-hover:translate-x-0.5 group-hover:text-ink-900">
+
+      {hasActions && (
+        <div className="relative z-10 mt-4 flex flex-wrap gap-x-4 gap-y-1 text-xs text-ink-400">
+          {project.liveUrl && (
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent"
+            >
+              Live ↗
+            </a>
+          )}
+          {project.githubUrl && (
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent"
+            >
+              GitHub ↗
+            </a>
+          )}
+        </div>
+      )}
+
+      <span className="pointer-events-none absolute right-6 top-6 text-ink-300 transition group-hover:translate-x-0.5 group-hover:text-ink-900">
         →
       </span>
-    </Link>
+
+      <Link
+        href={`/projects/${project.slug}`}
+        aria-label={`${project.title} 케이스 스터디 보기`}
+        className="absolute inset-0 rounded-2xl"
+      />
+    </div>
   );
 }
